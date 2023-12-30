@@ -1,0 +1,268 @@
+{
+  "ResponseMessages": {
+    "CommonMsg": {
+      "InternalServerErrorMsg": "Lỗi hệ thống.",
+      "UploadImageFailedMsg": "Tải ảnh không thành công.",
+      "SortedFieldNotFoundMsg": "Không tìm thấy trường dữ liệu cần sắp xếp.",
+      "DeleteImageSucessfullMsg": "Xóa ảnh thành công.",
+      "UnauthenticationMsg": "Bạn không có quyền thực hiện hành động này.",
+      "LocationNotValid": "Tọa độ không hợp lệ.",
+      "CheckLocationSuccessMsg": "Kiểm tra các chi nhánh gần đó với tọa độ thành công."
+    },
+    "AuthenticationMsg": {
+      "LoginSuccessMsg": "Đăng nhập thành công.",
+      "LoginFailedMsg": "Đăng nhập thất bại.",
+      "InternalServerErrorMsg": "Lỗi hệ thống.",
+      "UserNotFoundMsg": "Không tìm thấy người dùng này.",
+      "UnVerifyUserMsg": "Người dùng chưa được xác thực.",
+      "InactiveUserMsg": "Người dùng đã bị cấm, vui lòng liên hệ với chúng tôi để biết thên chi tiết.",
+      "LogoutSuccessMsg": "Đăng xuất thành công.",
+      "UnauthenticationMsg": "Bạn không có quyền thực hiện hành động này.",
+      "AlreadyLogoutMsg": "Bạn đã logout tài khoản này rồi.",
+      "NotAllowMsg": "Bạn không thể thực hiện hành động này."
+    },
+    "UserPermissionMsg": {
+      "UpdatePermissonSuccessMsg": "Cập nhật quyền thành công.",
+      "UserNotFoundMsg": "Không tìm thấy người dùng tương ứng với người dùng này.",
+      "UserNotAllowToUpdateMsg": "Bạn không có quyền cập nhật quyền hạn của bản thân.",
+      "InternalServerErrorMsg": "Lỗi hệ thống."
+    },
+    "UserMsg": {
+      "RegisterSuccessMsg": "Tạo tài khoản thành công",
+      "DuplicatedUserMsg": "Số điện thoại hoặc email đã tồn tại.",
+      "InternalServerErrorMsg": "Lỗi hệ thống.",
+      "SendVerificationEmailSuccessMsg": "Gửi email xác nhận thành công.",
+      "EmailNotFoundMsg": "Không tìm thấy địa chỉ email.",
+      "VerifySuccessMsg": "Xác thực email thành công.",
+      "VerifyEmailErrorMsg": "Xác thực email thất bại, vui lòng thử lại sau.",
+      "IncorectRegisterFormMsg": "Vui lòng chọn đúng phương thức đăng kí và cung cấp dữ liệu cần thiết.",
+      "RegisterByPhoneSuccessMsg": "Chúng tôi đã gửi mã xác thực tới số điện thoại của bạn.",
+      "PhoneNotFoundMsg": "Không tìm thấy số điện thoại.",
+      "VerifyPhoneSuccessMsg": "Xác thực số điện thoại thành công.",
+      "VerifyPhoneErrorMsg": "Xác thực số điện thoại thất bại, vui lòng thử lại sau.",
+      "UserNotFoundMsg": "Người dùng không tồn tại",
+      "LinkToEmalSuccessMsg": "Liên kết tài khoản thành công.",
+      "LinkToEmailFailedMsg": "Liên kết tài khoản thất bại.",
+      "UpdateUserProfileSucessMsg": "Cập nhật thành công.",
+      "IncorrectPasswordMsg": "Sai mật khẩu.",
+      "DuplicatedEmailMsg": "Email đã tồn tại."
+    },
+    "ActivityMsg": {
+      "CreateActivitySuccessMsg": "Tạo hoạt động thành công.",
+      "UpdateActivitySuccessMsg": "Cập nhật hoạt động thành công.",
+      "DeactivateActivitySuccessMsg": "Ngừng hoạt động thành công.",
+      "ActivityNameDuplicatedMsg": "Tên hoạt động đã được dùng.",
+      "UserNotAllowToAssignBranchesMsg": "Chỉ quản trị hệ thống được phép tạo hoạt động và chỉ định các chi nhánh tham gia.",
+      "JoinedBranchsListEmptyMsg": "Danh sách chi nhánh tham gia hoạt động trống.",
+      "ActivityNotFoundMsg": "Không tìm thấy hoạt động.",
+      "ActivityIsAlreadyDeactivatedMsg": "Hoạt động đã bị ngừng trước đó.",
+      "GetActivitiesSuccessMsg": "Lấy danh sách hoạt động thành công.",
+      "GetActivitySuccessMsg": "Lấy chi tiết hoạt động thành công.",
+      "CanNotUpdateEstimatedStartDate": "Không thể cập nhật ngày ước tính bắt đầu khi sự kiện đã bắt đầu.",
+      "CanNotUpdateEstimatedEndDate": "Không thể cập nhật ngày ước tính kết thúc khi sự kiện đã kết thúc.",
+      "EstimatedStartDateLimitMsg": "Ngày ước tính bắt đầu phải từ (hoặc bằng) ngày tạo và hiện tại đến (hoặc bằng) 3 tháng sau.",
+      "OnlySystemAdminCanUpdateMsg": "Chỉ quản trị viên hệ thống mới được cập nhật thông tin hoạt động do họ tạo.",
+      "OnlyBranchAdminFromTheSameBranchOrSystemAdminCanUpdateMsg": "Chỉ quản trị viên thuộc chi nhánh quản lý hoạt động này hoặc quản trị viên hệ thống mới được cập nhật thông tin hoạt động này.",
+      "ActivityIsNotStartedMsg": "Hoạt động vẫn chưa diễn ra hoặc đã kết thúc."
+    },
+    "BranchMsg": {
+      "InactiveBranchMsg": "Chi nhánh không còn hoạt động.",
+      "BranchNotFoundMsg": "Không tìm thấy chi nhánh.",
+      "BranchNotFoundInListMsg": "Không tìm thấy chi nhánh trong danh sách.",
+      "InactiveBranchInListMsg": "Danh sách chứa chi nhánh không còn hoạt động.",
+      "UserNotAllowToGetInactiveBranchMsg": "Chỉ quản trị viên mới xem được chi nhánh không còn hoạt động.",
+      "GetBranchesSuccessMsg": "Lấy danh sách chi nhánh thành công.",
+      "CreateBranchesSuccessMsg": "Tạo chi nhánh thành công.",
+      "UpdateBranchesSuccessMsg": "Cập nhật chi nhánh thành công.",
+      "UserAlreadyIsBranchAdminMsg": " đã ở trong một chi nhánh khác.",
+      "UserIsNotBranchAdminRoleMsg": "Bạn chỉ có thể bổ nhiệm người dùng với vai trò branch admin vào chi nhánh.",
+      "UnableToUpdateDeActiveAllMemberInBranch": "Chi nhánh phải có ít nhất 1 thành viên đang hoạt động.",
+      "NearbyBranchesNotFound": "Không tìm thấy chi nhánh nào hoạt động gần vị trí của bạn.",
+      "BranchNotFoundOrInactiveMsg": "Chi nhánh của bạn không tìm thấy hoặc không còn hoạt động."
+    },
+    "MemberMsg": {
+      "ActiveMemberNotFoundMsg": "Bạn hiện không là thành viên của một chi nhánh nào.",
+      "UnableToUpdateDeActiveAllMemberInBranch": "Chi nhánh phải có ít nhất 1 thành viên đang hoạt động."
+    },
+    "ActivityTypeMsg": {
+      "ActivityTypeNotFoundMsg": "Không tìm thấy loại hoạt động.",
+      "GetActivityTypesSuccessMsg": "Lấy danh sách loại hoạt động thành công."
+    },
+    "ActivityBranchMsg": {
+      "ActivityBranchAlreadyExistMsg": "Chi nhánh đã tham gia hoạt động.",
+      "BranchNotJoinInTheActivityMsg": "Chi nhánh không tham gia hoạt động này."
+    },
+    "ItemMsg": {
+      "ItemCreateSuccessMsg": "Tạo thành công.",
+      "ItemCategoryNotFoundMsg": "Không tìm thấy loại sản phẩm này.",
+      "ItemNotFoundMsg": "Không tìm thấy sản phẩm này.",
+      "ItemUpdateSuccessMsg": "Chỉnh sửa thành công",
+      "AttributeUpdateErrorMsg": "Biến thể của sản phẩm không hợp lệ"
+    },
+    "CharityUnitMsg": {
+      "CharityOrItsUnitNotFoundOrInactiveMsg": "Tổ chức từ thiện hoặc đơn vị không tìm thấy hoặc không còn hoạt động.",
+      "CharityUnitNotFoundMsg": "Không tìm thấy tổ chức từ thiện."
+    },
+    "ItemTemplateMsg": {
+      "ItemTemplateNotFoundInListMsg": "Không tìm thấy vật phẩm trong danh sách."
+    },
+    "AidRequest": {
+      "CreateAidRequestSuccess": "Yêu cầu cần hỗ trợ vật phẩm đã được gửi thành công đến các chi nhánh gần đó.",
+      "AidRequestNotFound": "Không tìm thấy yêu cầu cần hỗ trợ vật phẩm.",
+      "PendingAcceptableAidRequestNotFound": "Không tìm thấy yêu cầu cần hỗ trợ vật phẩm đang chờ xét duyệt.",
+      "GetAidRequestsSuccessMsg": "Lấy danh sách yêu cầu cần hỗ trợ vật phẩm thành công.",
+      "GetAidRequestSuccessMsg": "Lấy yêu cầu cần hỗ trợ vật phẩm thành công.",
+      "AcceptAidRequestPartiallyMustHasRejectingReasonMsg": "Xét duyệt chấp nhận chỉ 1 phần vật phẩm hỗ trợ trong yêu cầu hỗ trợ vật phẩm cần phải có lý do từ chối các vật phẩm hỗ trợ không được chấp nhận.",
+      "AcceptedAidItemNotFoundInListMsg": "Không tìm thấy vật phẩm hỗ trợ trong yêu cầu hỗ trợ vật phẩm.",
+      "WaitingForDeliveringAidRequestNotFoundMsg": "Không tìm thấy yêu cầu hỗ trợ vật phẩm đang chờ vận chuyển.",
+      "ScheduledTimeNotFoundMsg": "Không tìm ấy lịch trình vận chuyển trong yêu cầu hỗ trợ vật phẩm.",
+      "CanNotMakeDeliveryForSelfShippingAidRequest": "Không thể tạo các yêu cầu vận chuyển cho yêu cầu hỗ trợ vật phẩm tự vận chuyển.",
+      "CanNotExportStockForNotSelfShippingAidRequestMsg": "Không thể xuất kho trực tiếp cho yêu cầu hỗ trợ vật phẩm không phải tự vận chuyển.",
+      "AcceptedAidRequestFromBranchNotFoundMsg": "Không tìm thấy yêu cầu hỗ trợ vật phẩm đã chấp nhận từ chi nhánh khác.",
+      "ProcessingAidRequestAcceptedByBranchNotFoundMsg": "Không tìm thấy yêu cầu hỗ trợ vật phẩm được chấp nhận hoặc đang xử lý bởi chi nhánh.",
+      "FinishAidRequestSuccessMsg": "Hoàn thànhh yêu cầu hỗ trợ vật phẩm thành công."
+    },
+    "AcceptableAidRequestMsg": {
+      "AcceptAidRequestSuccessMsg": "Chấp nhận yêu cầu cần hỗ trợ vật phẩm thành công.",
+      "RejectAidRequestSuccessMsg": "Từ chối yêu cầu cần hỗ trợ vật phẩm thành công."
+    },
+    "AidItemMsg": {
+      "GetAidItemsSuccessMsg": "Lấy danh sách các vật phẩm hỗ trợ thành công.",
+      "AcceptedAidItemForActivityOfYourBranchNotFoundMsg": "Không tìm thấy vật phẩm hỗ trợ chờ đưa vào hoạt động thuộc chi nhánh của bạn."
+    },
+    "DonatedRequestMsg": {
+      "NeededItemNotFoundInActivityMsg": "Danh sách vật phẩm quyên góp chứa vật phẩm không có trong danh sách cần hỗ trợ của hoạt động.",
+      "CreateDonatedRequestSuccess": "Yêu cầu cho đồ đã được gửi thành công đến các chi nhánh gần đó.",
+      "CreateAndAcceptDonatedRequestSuccess": "Yêu cầu cho đồ đã được chấp nhận bởi chi nhánh gần nhất.",
+      "PendingAcceptableDonatedRequestNotFound": "Không tìm thấy yêu cầu quyên góp đang chờ xét duyệt.",
+      "WaitingForDeliveringDonatedRequestNotFoundMsg": "Không tìm thấy yêu cầu quyên góp đang chờ vận chuyển.",
+      "AcceptDonatedRequestPartiallyMustHasRejectingReasonMsg": "Xét duyệt chấp nhận chỉ 1 phần vật phẩm quyên góp trong yêu cầu quyên góp cần phải có lý do từ chối các vật phẩm quyên góp không được chấp nhận.",
+      "AcceptedDonatedItemNotFoundInListMsg": "Không tìm thấy vật phẩm quyên góp trong yêu cầu quyên góp.",
+      "NeedRejectingReasonIfNotFullyAcceptMsg": "Cần có lý do từ 30 đế 300 kí tự nếu không xét duyệt chấp nhận toàn bộ vật phẩm quyên góp trong yêu cầu quyên góp.",
+      "GetDonatedRequestsSuccessMsg": "Lấy danh sách yêu cầu quyên góp thành công.",
+      "GetDonatedRequestSuccessMsg": "Lấy yêu cầu quyên góp thành công.",
+      "DonatedRequestNotFound": "Không tìm thấy yêu cầu quyên góp.",
+      "ScheduledTimeNotFoundMsg": "Không tìm ấy lịch trình vận chuyển trong yêu cầu quyên góp.",
+      "DonatedTimeMustBeforeEstimatedEndDateOfActivityMsg": "Thời gian quyên góp phải trước thời gian kết thúc dự kiến của hoạt động nếu hoạt d0ong65 đã kết thúc.",
+      "ItemVolumeExceedLimitsMsg": "Lượng vật phẩm của bạn quá lớn, vui lòng liên hệ hoặc đem vật phẩm trực tiếp tới chi nhánh Từ Tâm gần đó để được xử lý.",
+      "ItemVolumeBelowLimitsMsg": "Chúng tôi không thể hỗ trợ vận chuyển vật phẩm về chi nhánh với lượng hàng quá ít."
+    },
+    "AcceptableDonatedRequest": {
+      "AcceptDonatedRequestSuccessMsg": "Chấp nhận yêu cầu quyên góp thành công.",
+      "RejectDonatedRequestSuccessMsg": "Từ chối yêu cầu quyên góp thành công."
+    },
+    "CollaboratorMsg": {
+      "CreateSuccessMsg": "Đăng ký thành công.",
+      "UpdateSuccessMsg": "Cập nhật thành công.",
+      "NotAllowToSpamMsg": "Bạn đã gửi yêu trước đó, vui lòng đợi 24 giờ sau để thực hiện lại hành động này.",
+      "CollaboratorNotFoundMsg": "Người dùng hiện không được phép thực hiện yêu cầu vận chuyển.",
+      "NotAllowToCancelCollaboratorMsg": "Bạn phải hoàng thành hoặc hủy tất cả các chuyến giao hàng của mình mới có thể thực hiện hành động này.",
+      "CollaboratorNotActiveMsg": "Tình nguyện viên hiện không trong trạng thái có thể thực hiện yêu cầu vận chuyển."
+
+    },
+    "CharityMsg": {
+      "CreateSuccessMsg": "Đăng ký thành công.",
+      "UpdateSuccessMsg": "Cập nhật thành công.",
+      "NotAllowToSpamMsg": "Bạn đã gửi yêu trước đó, vui lòng đợi 24 giờ sau để thực hiện lại hành động này.",
+      "CharityNotFoundMsg": "Tổ chức từ thiện không tìm thấy.",
+      "EmailOrPhoneAlreadyExistedMsg": "Số điện thoại hoặc email đã có người khác đăng kí.",
+      "CharityEmailExistedMsg": "Email đã có người khác đăng kí."
+
+    },
+    "RolePermissionMsg": {
+      "CreateSuccessMsg": "Tạo thành công.",
+      "RoleNotFoundMsg": "Không tìm thấy vai trò này trong hệ thống."
+    },
+    "NotificationMsg": {
+      "UpdateSuccessMsg": "Cập nhật thành công.",
+      "NotificationTitleForNewDonatedRequestMsg": "Có 1 yêu cầu quyên góp mới gần chi nhánh.",
+      "NotificationContentForNewDonatedRequestMsg": "Có 1 yêu cầu quyên góp mới gần chi nhánh mà bạn có thể chấp nhận.",
+      "NotificationTitleForAcceptedDonatedRequestMsg": "Yêu cầu quyên góp đã được chấp nhận.",
+      "NotificationContentForAcceptedDonatedRequestMsg": "Yêu cầu quyên góp của bạn đã được chấp nhận và sẽ được xử lý ở chi nhánh ",
+      "NotificationTitleForRejectedDonatedRequestMsg": "Yêu cầu quyên góp không được chấp nhận.",
+      "NotificationContentForRejectedDonatedRequestMsg": "Yêu cầu quyên góp của bạn không được chấp nhận bới các chi nhánh gần đó.",
+      "NotificationTitleForExpiredDeliveryRequestsMsg": "Yêu cầu vận chuyển đã hết hạn.",
+      "NotificationContentForExpiredDeliveryRequestsMsg": "Có yêu cầu vận chuyển đã hết hạn tại chi nhánh cần được xử lý.",
+      "NotificationTitleForItemOutOfDateMsg": "Thông báo về tình trạng vật phẩm sắp hết hạng sử dụng."
+    },
+    "DeliveryRequestMsg": {
+      "TypeDonatedRequestToBranchMustNotHasDeliveryPlaceIdMsg": "Loại vận chuyển vật phẩm được quyên góp về chi nhánh của bạn không được phép có thông tin của nơi nhận hàng.",
+      "TypeBranchToAidRequestMustNotHasPickupPlaceIdMsg": "Loại vận chuyển vật phẩm cần được hỗ trợ đến đơn vị tổ chức từ thiện không được phép có thông tin của nơi lấy hàng.",
+      "TypeBranchToBranchMustNotHasPickupPlaceIdMsg": "Loại vận chuyển vật phẩm từ chi nhánh của bạn đến chi nhánh khác không được phép có thông tin của nơi lấy hàng.",
+      "CreateDeliveryRequestsSuccessMsg": "Tạo các yêu cầu vận chuyển thành công.",
+      "TotalQuantityNotMatchMsg": "Tổng lượng vật phẩm cần vận chuyển không khớp với yêu cầu quyên góp.",
+      "TotalTransportVolumnNotInLimit": "Tổng lượng đồ cho cuốc xe không trong mức quy định.",
+      "ProcessingDeliveryRequestNotFoundMsg": "Không tìm thấy yêu cầu vận chuyển đang được thực hiện của bạn.",
+      "UpdateDeliverySuccessMsg": "Cập nhật yêu cầu vận chuyển thành công.",
+      "OnlyArrivedPickupDeliveryRequestTypeItemToBranchCanBeUpdatedDeliveryItemsMsg": "Chỉ yêu cầu vận chuyển đã tới nơi lấy và là loại đem vật phẩm về chi nhánh mới được cập nhật thông tin vật phẩm được vận chuyên.",
+      "OnlyArrivedDeliveryDeliveryRequestTypeBranchToCharityUnitCanBeUpdatedProofImageMsg": "Chỉ yêu cầu vận chuyển đã tới nơi giao và là loại đem vật phẩm tới tổ chức từ thiện mới được cập nhật bằng chứng thực hiện giao.",
+      "OnlyDeliveredDeliveryRequestTypeBranchToCharityUnitCanBeUpdatedToFinishedMsg": "Chỉ yêu cầu vận chuyển đã giao và là loại đem vật phẩm tới tổ chức từ thiện mới được cập nhật hoàn thành yêu cầu vận chuyển.",
+      "DeliveryRequestNotDeliverToThisCharityUnitMsg": "Yêu cầu vận chuyển không thuộc về đơn vị tổ chức từ thiện này.",
+      "DeliveryRequestThatCanBeReportedNotFoundMsg": "Không tìm thấy yêu cầu vận chuyển có thể được báo cáo.",
+      "DeliveryRequestTypeItemToBranchMustBeFinishedToBeReportedByUserMsg": "Yêu cầu vận chuyển loại đem vật phẩm về chi nhánh phải hoàn thành mới được báo cáo bởi tình nguyện viên quyên góp.",
+      "DeliveryRequestTypeBranchToCharityUnitMustBeFinishedToBeReportedByCharityUnitMsg": "Yêu cầu vận chuyển loại đem vật phẩm tới tổ chức từ thiện phải hoàn thành mới được báo cáo bởi tổ chức từ thiện.",
+      "DeliveryRequestTypeItemToBranchMustBeShippingOrArrivedPickupToBeReportedByCollaboratorMsg": "Yêu cầu vận chuyển loại đem vật phẩm về chi nhánh phải là đang đi tới hoặc đã tới điểm lấy vật phẩm mới được báo cáo bởi tình nguyện viên.",
+      "DeliveryRequestHasBeenAlreadyReportedMsg": "Yêu cầu vận chuyển đã được báo cáo trước đó.",
+      "DeliveryRequestMustBeImportTypeToReportByCollaboratorMsg": "Chỉ yêu cầu vận chuyển loại đem vật phẩm về chi nhánh mới được báo cáo bởi tình nguyện viên.",
+      "DeliveryRequestMustBeImportTypeToBeProcessedByBranchAdminMsg": "Chỉ yêu cầu vận chuyển loại đem vật phẩm về chi nhánh mới xử lý bởi quản trị viên chi nhánh.",
+      "ProcessedReportedDeliveryRequestMustBePendingOrExpiredMsg": "Chỉ yêu cầu vận chuyển được báo cáo bới tình nguyện viên và trạng thái sau khi được xử lý phải là đang chờ hoặc hết hạn.",
+      "DeliveryRequestOfBranchNotFoundMsg": "Không tìm thấy yêu cầu vận chuyển được của chi nhánh.",
+      "DeliveryRequestTypeImportMustBePendingOrAcceptedToBeCanceledMsg": "Yêu cầu vận chuyển loại nhập kho phải trong trạng thái chờ hoặc đã được chấp nhận bởi tình nguyện viên mới có thể bị hủy.",
+      "DeliveryRequestTypeExportMustBePendingOrAcceptedOrDelveringToBeCanceledMsg": "Yêu cầu vận chuyển loại xuất kho phải trong trạng thái chờ, được chấp nhận hoặc đang trong xử lý trước khi giao bởi tình nguyện viên mới có thể bị hủy.",
+      "CancelDeliveryRequestSuccessMsg": "Hủy yêu cầu vận chuyển thành công.",
+      "DeliveryRequestMustBeArrivedPickupToGiveItemsMsg": "Yêu cầu vận chuyển phải ở trạng thái đã tới nơi giao mới có thể tiến hành giao vật phẩm.",
+      "GetDeliveryRequestsSuccessMsg": "Lấy danh sách yêu cầu vận chuyển thành công.",
+      "FinishedDeliveryRequestForDonatedRequestNotFoundMsg": "Không tìm thấy yêu cầu vận chuyển đã được nhập kho cho yêu cầu quyên góp của bạn.",
+      "FinishedDeliveryRequestForAidRequestNotFoundMsg": "Không tìm thấy yêu cầu vận chuyển đã được nhập kho cho yêu cầu hỗ trợ vật phẩm của bạn.",
+      "DeliveryRequestTypeExportMustBeExportedToUpdateStatusToCollectedMsg": "Yêu cầu vận chuyển loại xuất kho phải đã được xác nhận xuất kho từ quản trị viên chi nhánh mới có thể cập nhật trạng thái sang đã nhận hàng."
+    },
+    "CharityUnit": {
+      "CharityRegisterSuccessMsg": "Gửi yêu cầu thành công.",
+      "CharityUnitDoNotAllowMsg": "Bạn không có quyền để thực hiện hành động này."
+    },
+    "StockMsg": {
+      "CurrentStockNotEnoughToDeliverToAidRequestMsg": "Lượng đồ trong kho không đủ để tạo yêu cầu vận chuyển cho yêu cầu hỗ trợ vật phẩm.",
+      "StockNotEnoughToExportMsg": "Lượng đồ trong kho không đủ để xuất kho theo số lượng được yêu cầu.",
+      "StockNotFoundMsg": "Không tìm thấy lượng đồ trong kho."
+
+    },
+    "ActivityApplicationMsg": {
+      "CreateSuccessMsg": "Gửi yêu cầu thành công.",
+      "DoNotAllowToSpam": "Bạn đã gửi đơn này rồi.",
+      "ConfirmSuccessMsg": "Đã xác nhận."
+    },
+    "ScheduledRouteMsg": {
+      "ScheduledRouteNotFoundMsg": "Không tìm thấy lịch trình vận chuyển.",
+      "PendingScheduledRouteNotFoundMsg": "Lịch trình vận chuyển đã được chấp nhận bởi người khác.",
+      "ExistOverlapScheduledRoute": "Bạn có lịch trình bị trùng thời gian vận chuyển.",
+      "BranchTooFarToAcceptScheduledRouteMsg": "Bạn cách quá xa chi nhánh trực thuộc lịch vận chuyển này so với mức khoảng cách tối đa cho phép.",
+      "AcceptScheduledRouteSuccess": "Chấp nhận lịch trình vận chuyển thành công.",
+      "DeliveredDeliveryRequestNotMatchInListMsg": "Không tìm thấy yêu cầu vận chuyển trong danh sách đã vận chuyển của lịch trình vận chuyển.",
+      "DeliveredDeliveryItemNotMatchInListMsg": "Không tìm thấy vật phẩm được vận chuyển trong danh sách đã vận chuyển của lịch trình vận chuyển.",
+      "ScheduledRouteIsNotDonatedRequestToBranchTypeMsg": "Lịch trình vận chuyển không phải loại vận chuyển vật phẩm từ các yêu cầu quyên góp về chi nhánh.",
+      "ScheduledRouteIsNotBranchToAidRequestTypeTypeMsg": "Lịch trình vận chuyển không phải loại vận chuyển vật phẩm từ chi nhánh đến các yêu cầu hỗ trợ vật phẩm.",
+      "FinishScheduledRouteSuccessMsg": "Hoàn thành lịch trình vận chuyển thành công.",
+      "AcceptedScheduledRouteNotFoundMsg": "Không tìm thấy lịch trình vận chuyển chờ bắt đầu.",
+      "ScheduledRouteHasNotStartedYetMsg": "Lịch trình vận chuyển chưa tới giờ có thể thực hiện.",
+      "StartScheduledRouteSuccessMsg": "Bắt đầu thực hiện lịch trình vận chuyển thành công.",
+      "ProcessingScheduledRouteNotFound": "Không tìm thấy lịch trình vận chuyển đang trong trạng thái đang thực hiện.",
+      "GetScheduledRoutesSuccessMsg": "Lấy danh sách lịch trình vận chuyển thành công.",
+      "GetScheduledRouteSuccessMsg": "Lấy lịch trình vận chuyển thành công.",
+      "ScheduledRouteNotBelongToYourBranch": "Chi nhánh của bạn không trực thuộc lịch trình vận chuyển này.",
+      "ScheduledRouteAlreadyReceivedItemsMsg": "Bạn đã xuất kho cho lịch trình vận chuyển này trước đó.",
+      "CheckToCreateNewScheduledRoutesSuccessMsg": "Kiểm tra và tạo mới các lịch trình vận chuyển thành công.",
+      "CanNotCancelScheduledRouteIfThereAreCollectedDeliveryRequestsMsg": "Không thể hủy lịch trình vận chuyển nếu có yêu cầu vận chuyển trong các trạng thái đã nhận vật phẩm.",
+      "ScheduledRouteIsExpiredMsg": "Lịch trình vận chuyển đã hết hạn.",
+      "ScheduledRouteTypeImportMustHasAtLeastOneCollectedMsg": "Lịch trình vận chuyển loại vận chuyển vật phẩm từ các yêu cầu quyên góp về chi nhánh phải có ít nhất 1 điểm đến đã lấy vật phẩm thành công mới có thể tiến hành đem vật phẩm về chi nhánh. Nếu không lấy được vật phẩm nào, bạn hãy hủy lịch trình vận chuyển này nhé.",
+      "ScheduledRouteDontHaveAnyDeliveredDeliveryRequestMsg": "Lịch trình vận chuyển không có yêu cầu vận chuyển nào trong trạng thái đã giao."
+    },
+    "StockUpdatedHistoryMsg": {
+      "ExportStocksSuccessMsg": "Xuất kho thành công.",
+      "StockUpdatedHistoryTypeExportNotFoundMsg": "Không tìm thấy Lịch sử xuất kho.",
+      "StockUpdatedHistoryTypeExportSuccessMsg": "Lấy lịch sử xuất kho thành công."
+    },
+    "ReportMsg": {
+      "SendReportSuccessMsg": "Gửi báo cáo thành công."
+    }
+  }
+}
